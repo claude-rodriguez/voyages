@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 #crheader{
     height: 33em;
     background-color: blue;
@@ -46,4 +47,23 @@
 }
 .crheaderinput{
     font-size: 2em;
+}
+#al_footer{
+    background-color: aquamarine;
+    width: 100%;
+}
+#al_contact{
+color: blueviolet;
+float: left;
+padding-left: 12em;
+font-size: large;
+}
+#al_reseaux{
+color: bisque;
+overflow: auto;
+padding-left: 15em;
+font-size: large;
+}
+a{
+    text-decoration: none;
 }

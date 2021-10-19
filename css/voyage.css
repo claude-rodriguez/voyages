@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#al_footer{
+    background-color: aquamarine;
+    width: 100%;
+}
+#al_contact{
+color: blueviolet;
+float: left;
+padding-left: 12em;
+font-size: large;
+}
+#al_reseaux{
+color: bisque;
+overflow: auto;
+padding-left: 15em;
+font-size: large;
+}
+a{
+    text-decoration: none;
+}

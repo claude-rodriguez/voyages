@@ -1,0 +1,26 @@
+/* DEBUT MAIN Accueil */
+#lr_main{
+    background-image: url(../voyages/photos/fond_main1.jpg);
+    background-color: aquamarine;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 34em;
+}
+
+#lr_texte_presentation{
+    justify-content: left;
+    font-size: 150%;
+    padding-top: 15%;
+    padding-left: 5%;
+}
+
+#lr_h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#lr_texte{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* FIN MAIN  Accueil*/

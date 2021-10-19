@@ -30,6 +30,52 @@
     margin: 0;
     padding: 0;
 }
+
+#crheader{
+    height: 33em;
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-image: url(../voyages/photos/blue-blue-sky-blue-sky-over-the-ocean-nature-sky-hd-art-wallpaper-preview.jpg);
+}
+#crheaderh1{
+    font-family: 'Festive', cursive;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+}
+#crheaderdivcitation{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+#crheaderauteur{
+    display: flex;
+    justify-content: center;
+}
+#crheaderul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.crheaderli{
+    display: inline;
+    list-style-type: none;
+}
+.crheadera{
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+#crheaderform{
+    display: flex;
+    justify-content: center;
+}
+.crheaderinput{
+    font-size: 2em;
+}
 #al_footer{
     background-color: aquamarine;
     width: 100%;

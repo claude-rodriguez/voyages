@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* DEBUT MAIN Accueil */
 #lr_main{
     background-image: url(../voyages/photos/fond_main1.jpg);
@@ -24,3 +25,28 @@
 
 
 /* FIN MAIN  Accueil*/
+=======
+*{
+    margin: 0;
+    padding: 0;
+}
+#al_footer{
+    background-color: aquamarine;
+    width: 100%;
+}
+#al_contact{
+color: blueviolet;
+float: left;
+padding-left: 12em;
+font-size: large;
+}
+#al_reseaux{
+color: bisque;
+overflow: auto;
+padding-left: 15em;
+font-size: large;
+}
+a{
+    text-decoration: none;
+}
+>>>>>>> 359bdb1043f55dd4464f7c1a232a85b37d68a40a

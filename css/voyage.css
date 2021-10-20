@@ -318,7 +318,7 @@ a{
     border: 1px solid black;
     background-color: silver;
   }
-  * html ul#menu {  /* corrections pour IE 5.x */
+  * html ul#menu {  
     width: 11.6em;
     w\idth: 10em;
     padding-left: 0;

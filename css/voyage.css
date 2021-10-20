@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* DEBUT MAIN Accueil */
 #lr_main{
     background-image: url(../voyages/photos/fond_main1.jpg);
@@ -25,7 +25,6 @@
 
 
 /* FIN MAIN  Accueil*/
-=======
 *{
     margin: 0;
     padding: 0;
@@ -77,22 +76,32 @@
     font-size: 2em;
 }
 #al_footer{
-    background-color: aquamarine;
+    background-color: #8eb8eb;
     width: 100%;
+    padding-top: 2.5%;
+padding-bottom: 2.5%;
 }
 #al_contact{
-color: blueviolet;
+color: #172f4e;
 float: left;
 padding-left: 12em;
 font-size: large;
+font-family: Arial, Helvetica, sans-serif;
 }
 #al_reseaux{
-color: bisque;
+color: #172f4e;
 overflow: auto;
 padding-left: 15em;
 font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+}
+#al_newsletter{
+    color: #172f4e;
+/* overflow: auto; */
+padding-left: 70em;
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
 }
 a{
     text-decoration: none;
 }
->>>>>>> 359bdb1043f55dd4464f7c1a232a85b37d68a40a

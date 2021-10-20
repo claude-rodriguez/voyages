@@ -47,7 +47,7 @@
     /* width: 90%; */
 }
 
-form {
+#lr_form {
  
     margin: 0 auto;
     width: 500px;
@@ -57,7 +57,7 @@ form {
     border-radius: 1em;
   }
   
-  form div + div {
+  #form div + div {
     margin-top: 1em;
   }
   
@@ -91,7 +91,7 @@ form {
     padding-left: 90px;
   }
   
-  button {
+  #button {
     margin-left: .5em;
   }
 
@@ -282,22 +282,32 @@ form {
 /* FIN MAIN  Accueil*/
 
 #al_footer{
-    background-color: aquamarine;
+    background-color: #8eb8eb;
     width: 100%;
+    padding-top: 2.5%;
+padding-bottom: 2.5%;
 }
 #al_contact{
-color: blueviolet;
+color: #172f4e;
 float: left;
 padding-left: 12em;
 font-size: large;
+font-family: Arial, Helvetica, sans-serif;
 }
 #al_reseaux{
-color: bisque;
+color: #172f4e;
 overflow: auto;
 padding-left: 15em;
 font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+}
+#al_newsletter{
+    color: #172f4e;
+/* overflow: auto; */
+padding-left: 70em;
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
 }
 a{
     text-decoration: none;
 }
- 

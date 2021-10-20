@@ -1,3 +1,173 @@
+/* DEBUT MAIN Accueil */
+#lr_main{
+    background-image: url(../voyages/photos/fond_main1.png);
+    background-color: #8eb8eb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 34em;
+}
+
+#lr_texte_presentation{
+    justify-content: left;
+    font-size: 150%;
+    padding-top: 15%;
+    padding-left: 5%;
+    color: #172f4e;
+}
+
+#lr_h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#lr_texte{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lr_image_pays{
+    width: 100%;
+    padding-top: 5%;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+}
+.container .text {
+    background: #e9f3ffcc;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 430%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 45%;
+    color: #3063a7;
+    /* width: 90%; */
+}
+
+form {
+ 
+    margin: 0 auto;
+    width: 500px;
+  
+    padding: 1em;
+    border: 7px solid #8eb8eb;
+    border-radius: 1em;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+  
+    box-sizing: border-box;
+  
+    border: 5px solid #8eb8eb;
+    width: 300px;
+    box-sizing: border-box;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #3063a7;
+  }
+  
+  textarea {
+    vertical-align: top;
+  
+    height: 10em;
+  }
+  
+  .boutton {
+    padding-left: 90px;
+  }
+  
+  button {
+    margin-left: .5em;
+  }
+
+  
+  #menu-demo2, #menu-demo2 ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align:center;
+    }
+    #menu-demo2 li{
+    display:inline-block;
+    position:relative;
+    border-radius:8px 8px 0 0;
+    }
+    #menu-demo2 ul li{
+    display:inherit;
+    border-radius:0;
+    }
+    #menu-demo2 ul li:hover{
+    border-radius:0;
+    }
+    #menu-demo2 ul li:last-child{
+    border-radius:0 0 8px 8px;
+    }
+    #menu-demo2 ul{
+    position:absolute;
+    z-index: 1000;
+    max-height:0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .8s all .3s;
+    transition: .8s all .3s;
+    }
+    #menu-demo2 li:hover ul{
+    max-height:15em;
+    }
+
+
+    #menu-demo2 li:first-child{
+    background-color: #3063a7;
+    background-image:-webkit-linear-gradient(top, #3063a7 0%, #3063a7 100%);
+    background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
+    }
+    #menu-demo2 li:nth-child(2){
+    background-color: #729EBF;
+    background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+    background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+    }
+    #menu-demo2 li:nth-child(3){
+    background-color: #F6AD1A;
+    background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
+    background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
+    }
+
+
+    #menu-demo2 a{
+    text-decoration:none;
+    display:block;
+    padding:8px 52px;
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    #menu-demo2 ul a{
+    padding:8px 0;
+    }
+    #menu-demo2 li:hover li a{
+    color:#fff;
+    text-transform:inherit;
+    }
+    #menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+    color:#000;
+    }
+/* FIN MAIN  Accueil*/
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +175,9 @@
 /* début header */
 #crheader{
     height: 33em;
-    background-color: blue;
+    background-color: #8eb8eb;
     background-repeat: no-repeat;
-    background-image: url(../voyages/photos/blue-blue-sky-blue-sky-over-the-ocean-nature-sky-hd-art-wallpaper-preview.jpg);
+    background-image: url(../voyages/photos/blue-blue-sky-blue-sky-over-the-ocean-nature-sky-hd-art-wallpaper-preview.png);
 }
 #crheaderh1{
     font-family: 'Festive', cursive;
@@ -129,7 +299,6 @@ font-size: large;
 }
 a{
     text-decoration: none;
-
 }
      ul#menu {
     width: 10em;

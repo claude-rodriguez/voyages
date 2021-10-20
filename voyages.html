@@ -9,16 +9,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
         <title>Document</title>
     </head>
-<<<<<<< HEAD
-    <body id="lr_body">
-=======
     <body>
            <!-- id et classe
                 cr=claude rodriguez
                 lr=laura rodriguez
                 al=alex lovati -->
->>>>>>> f83d1cf9d081ffecbc25891273cabb3e5c05aa14
-
         <header id="crheader">
             <div id="crheadertitre">
                 <strong><h1 id="crheaderh1">Le Monde est à Nous</h1></strong>
@@ -50,10 +45,45 @@
 
         <main id="lr_main">
             <div id="lr_texte_presentation">
-                <h1 id="lr_h1">Titre</h1>
+                <h1 id="lr_h1">Au Programme :   </h1>
                 <p id="lr_texte">Voyagez et découvrez des cultures et des lieux paradisiaques !<br>
                 En ce moment, c'est l'Angleterre, le Japon et le Kenya qui sont mit en avant !</p>
             </div>
+            <div class="container" >
+                <a href="voyage1.html"><img class="lr_image_pays" src="../voyages/voyages/photos/angleterre.png">
+                <h2 class="text">Angleterre</h2></a>
+            </div>
+            <div class="container" >
+                <a href="voyage2.html"><img class="lr_image_pays" src="../voyages/voyages/photos/kenya.png">
+                <h2 class="text">Kenya</h2></a>
+            </div>
+            <div class="container" >
+                <a href="voyage3.html"><img class="lr_image_pays" src="../voyages/voyages/photos/japon.png">
+                <h2 class="text">Japon</h2></a>
+            </div>
+            <form>
+                <div class="txtform">
+                    <ul id="menu-demo2">
+                        <li><button type="submit"><a href="#">Destination</a></button>
+                            <ul>
+                                <li><a href="#">Angleterre</a></li>
+                                <li><a href="#">Kenya</a></li>
+                                <li><a href="#">Japon</a></li>
+                            </ul>
+                    </ul>
+                    <div>
+                        <label for="arrivee">Arrivée</label>
+                        <input type="arrivee" id="arrivee" name="user_arrivee" placeholder="Date de votre arrivée">
+                    </div>
+                    <div>
+                        <label for="depart">Départ</label>
+                        <input type="depart" id="depart" name="user_depart" placeholder="Date de votre départ">
+                    </div>
+                    <div class="boutton">
+                        <button type="submit">Envoyer</button>
+                    </div>  
+                </div>          
+            </form>
         </main>
 
         <footer id="al_footer">

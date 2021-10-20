@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* DEBUT MAIN Accueil */
 #lr_main{
     background-image: url(../voyages/photos/fond_main1.png);
@@ -168,11 +169,13 @@ form {
     color:#000;
     }
 /* FIN MAIN  Accueil*/
+=======
+>>>>>>> d61a5564c9630ef6ad9a7c40b7776a3eaafa2c1d
 *{
     margin: 0;
     padding: 0;
 }
-
+/* début header */
 #crheader{
     height: 33em;
     background-color: #8eb8eb;
@@ -184,17 +187,32 @@ form {
     font-size: 4em;
     display: flex;
     justify-content: center;
+    text-shadow:#5EE8FF 0 -2px 0,
+    #0097BA 2px 2px 0,
+    #00748F 4px 4px 0,
+    #006178 6px 6px 0.5px,
+    #333333 8px 11px 10px;
+    color:#00CFFF;
+
 }
 #crheaderdivcitation{
     font-size: 2em;
     display: flex;
     justify-content: center;
+    text-shadow:#5EE8FF 0 -2px 0,
+    #0097BA 2px 2px 0,
+    #00748F 4px 4px 0,
+    #006178 6px 6px 0.5px,
+    #333333 8px 11px 10px;
+    color:#00CFFF;
+    
 }
 #crheaderauteur{
     display: flex;
     justify-content: center;
 }
 #crheaderul{
+    margin-top: 7em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -210,14 +228,63 @@ form {
     color: black;
     text-decoration: none;
     list-style-type: none;
+    text-shadow:0 0 3px #0061FE, 0 0 7px #0061FE, 0 0 20px #0061FE;color:#0061FE;
+    background-color:#2ece5e;
+}
+
+element.style {
+}
+#crheaderleader {
+    width: 30px;
+    height: 4px;
+    background-color: var(--fecorange);
+    margin: 2px 0;
+    border-radius: 5px;
+}
+.crheaderbar {
+    text-decoration: none;
+    color: inherit;
 }
 #crheaderform{
+    margin-top: 7em;
     display: flex;
-    justify-content: center;
+    justify-content: center;  
 }
 .crheaderinput{
+    border-radius: 22em;
     font-size: 2em;
+    text-shadow:0 0 3px #0061FE, 0 0 7px #0061FE, 0 0 20px #0061FE;color:#0061FE;
+    background-color:rgb(255, 251, 0);
 }
+/* fin header  */
+
+/* DEBUT MAIN Accueil */
+#lr_main{
+    background-image: url(../voyages/photos/fond_main1.jpg);
+    background-color: aquamarine;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 34em;
+}
+
+#lr_texte_presentation{
+    justify-content: left;
+    font-size: 150%;
+    padding-top: 15%;
+    padding-left: 5%;
+}
+
+#lr_h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#lr_texte{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* FIN MAIN  Accueil*/
+
 #al_footer{
     background-color: aquamarine;
     width: 100%;
@@ -236,4 +303,35 @@ font-size: large;
 }
 a{
     text-decoration: none;
+<<<<<<< HEAD
 }
+=======
+
+}
+     ul#menu {
+    width: 10em;
+    margin: 0; padding: 0.8em;
+    border: 1px solid black;
+    background-color: silver;
+  }
+  * html ul#menu {  /* corrections pour IE 5.x */
+    width: 11.6em;
+    w\idth: 10em;
+    padding-left: 0;
+    padd\ing-left: 0.8em;
+  }
+  ul#menu li {
+    list-style: none;
+    margin: 0.4em; padding: 0.2em;
+    border: 1px solid gray;
+    background-color: #eee;
+  }
+
+  ul#menu a {
+    text-decoration: none; font-weight: bold;
+    color: maroon; background-color: #ccc;
+  }
+  ul#menu a:hover {
+    color: white; background-color: gray;
+  }
+>>>>>>> d61a5564c9630ef6ad9a7c40b7776a3eaafa2c1d

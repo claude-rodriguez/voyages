@@ -1,6 +1,6 @@
 /* DEBUT MAIN Accueil */
 #lr_main{
-    background-image: url(../voyages/photos/fond_main1.png);
+    background-image:url("../voyages/photos/fond_main1.png");
     background-color: #8eb8eb;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,6 +22,11 @@
 #lr_texte{
     font-family: Arial, Helvetica, sans-serif;
 }
+#lr_txtform{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #172f4e;
+    font-size: larger;
+}
 
 .lr_image_pays{
     width: 100%;
@@ -31,9 +36,10 @@
 .container {
     display: inline-block;
     position: relative;
+    /* background-color: #a1001b; */
 }
 .container .text {
-    background: #e9f3ffcc;
+    background: #68acffcc;
     z-index: 1;
     position: absolute;
     text-align: center;
@@ -48,11 +54,13 @@
 }
 
 #lr_form {
- 
-    margin: 0 auto;
+    /* background-color: #3063a7; */
+    background-image: url(../voyages/photos/fond_main.png);
+    margin: 7em auto;
+    margin-bottom: -25em;
     width: 500px;
   
-    padding: 1em;
+    padding: 3em;
     border: 7px solid #8eb8eb;
     border-radius: 1em;
   }
@@ -62,6 +70,7 @@
   }
   
   label {
+      padding-top: 10%;
     display: inline-block;
     width: 90px;
     text-align: right;
@@ -135,18 +144,15 @@
 
     #menu-demo2 li:first-child{
     background-color: #3063a7;
-    background-image:-webkit-linear-gradient(top, #3063a7 0%, #3063a7 100%);
-    background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
+    background-image:linear-gradient(to bottom, #7d73d4 0%, #3d1375 100%);
     }
     #menu-demo2 li:nth-child(2){
-    background-color: #729EBF;
-    background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
-    background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+    background-color: #e0a500;
+    background-image:linear-gradient(to bottom, #c57600 0%, #6b2700 100%);
     }
     #menu-demo2 li:nth-child(3){
-    background-color: #F6AD1A;
-    background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
-    background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
+    background-color: #af0009;
+    background-image:linear-gradient(to bottom, #e9748e 0%, #a1001b 100%);
     }
 
 
@@ -154,18 +160,18 @@
     text-decoration:none;
     display:block;
     padding:8px 52px;
-    color:#fff;
+    color:#1f4c88;
     font-family:Arial, Helvetica, sans-serif;
     }
     #menu-demo2 ul a{
     padding:8px 0;
     }
     #menu-demo2 li:hover li a{
-    color:#fff;
+    color:#172f4e;
     text-transform:inherit;
     }
     #menu-demo2 li:hover a, #menu-demo2 li li:hover a{
-    color:#000;
+    color:rgb(100, 211, 219);
     }
 /* FIN MAIN  Accueil*/
 *{
@@ -174,7 +180,7 @@
 }
 /* début header */
 #crheader{
-    height: 33em;
+    height: 28em;
     background-color: #8eb8eb;
     background-repeat: no-repeat;
     background-image: url(../voyages/photos/blue-blue-sky-blue-sky-over-the-ocean-nature-sky-hd-art-wallpaper-preview.png);
@@ -226,7 +232,7 @@
     text-decoration: none;
     list-style-type: none;
     text-shadow:0 0 3px #0061FE, 0 0 7px #0061FE, 0 0 20px #0061FE;color:#0061FE;
-    background-color:#2ece5e;
+    background-color:#a1ffcb;
 }
 
 #crheaderleader {
@@ -247,46 +253,23 @@
 }
 .crheaderinput{
     border-radius: 22em;
-    font-size: 2em;
+    font-size: 25px;
     text-shadow:0 0 3px #0061FE, 0 0 7px #0061FE, 0 0 20px #0061FE;color:#0061FE;
-    background-color:rgb(255, 251, 0);
+    background-color:#a1ffcb;
 }
 /* fin header  */
 
-/* DEBUT MAIN Accueil */
-#lr_main{
-    background-image: url(../voyages/photos/fond_main1.jpg);
-    background-color: aquamarine;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    padding-bottom: 34em;
-}
 
-#lr_texte_presentation{
-    justify-content: left;
-    font-size: 150%;
-    padding-top: 15%;
-    padding-left: 5%;
-}
-
-#lr_h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-#lr_texte{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-/* FIN MAIN  Accueil*/
 
 #al_footer{
     background-color: #8eb8eb;
+    background-image: url(../voyages/photos/sky_footer.png);
     width: 100%;
     padding-top: 2.5%;
 padding-bottom: 2.5%;
 }
 #al_contact{
+    /* background-color: #a1001b; */
 color: #172f4e;
 float: left;
 padding-left: 12em;
@@ -294,19 +277,21 @@ font-size: large;
 font-family: Arial, Helvetica, sans-serif;
 }
 #al_reseaux{
+    /* background-color: #c57600; */
 color: #172f4e;
 overflow: auto;
-padding-left: 15em;
+padding-left: 5em;
 font-size: large;
 font-family: Arial, Helvetica, sans-serif;
 }
-#al_newsletter{
-    color: #172f4e;
+/* #al_newsletter{ */
+    /* background-color: pink; */
+    /* color: #172f4e; */
 /* overflow: auto; */
-padding-left: 70em;
+/* padding-left: 70em;
 font-size: large;
-font-family: Arial, Helvetica, sans-serif;
-}
+font-family: Arial, Helvetica, sans-serif; */
+/* } */
 a{
     text-decoration: none;
 }

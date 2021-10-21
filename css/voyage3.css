@@ -1,0 +1,40 @@
+#videofond {
+        position:fixed;right:0;bottom:0;
+        min-width:100%;min-height:100%;
+        width:auto;height:auto; z-index:-999;
+        overflow:hidden;
+        background:url(../voyages/vidéos/yt5s.com-Anime\ Wallpaper\ PC\ Sakura\ Tree\ \ David\ Live\ Wallpapers\ 1080pFHR.mp4) no-repeat;
+        background-size:cover;}
+        video{display:block;
+        background-attachment: scroll;
+        opacity: 80%;
+  }
+body{
+
+ }
+ .rectangle{
+	width: 50%;
+	height:1000px;
+	background:rgb(255, 255, 255);
+    opacity: 50%;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    z-index: -5;
+}
+h1{
+    font-size:400%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    
+}
+#filleattache{
+    display: flex;
+    padding-left: 16.3%;
+    /* padding-top: 20%; */
+}
+#fillerouge{
+    display: flex;
+    padding-left: 74.25%;
+}

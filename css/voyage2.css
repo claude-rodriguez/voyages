@@ -1,0 +1,38 @@
+#crmain2{
+    height:52em;
+    background-image: url(../voyages/photos/african-sunrise-amboseli-national-park63103.jpg);
+    background-color: blue;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+#crmapemonde{
+    margin-top: 4em;
+    display: flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+}
+#crtitre{
+    font-size: 4em;
+    text-shadow:#e7f6ff 0 -1px 0,
+    #a74a0c 1px 1px 0,
+    #d97f32 2px 2px 0,
+    #f5993d 3px 3px 0,
+    #fec362 4px 4px 0,
+    #ffe687 5px 5px 0,
+    #333 5px 5px 10px;color:#F30034;
+    display: flex;
+    justify-content: center;
+}
+td{
+    border: 1px solid black;
+    padding:10px;
+    width: 15em;
+    height: 1em;
+}
+.crtr1{
+    background-color: blanchedalmond;
+}
+.crtr2{
+    background-color: honeydew;
+}

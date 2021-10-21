@@ -1,0 +1,162 @@
+main{
+    /* background-image: url(../voyages/photos/angleterre_fond.jpg); */
+    background-color: rgb(243, 230, 222);
+}
+
+#bandeau_angleterre{
+    background-image: url(../voyages/photos/angleterre_fond.jpg);
+    opacity: 80%;
+    padding: 2%;
+}
+#h1_angleterre{
+    font-family: 'Festive',Arial, Helvetica, sans-serif;
+    font-size: 550%;
+    padding-left: 10%;
+    color: whitesmoke;
+}
+
+#intro{
+    padding-left: 5%;
+}
+
+  .image {
+    vertical-align: top;
+}
+
+
+#deplacement{
+    display: flex;
+    justify-content: center;
+    padding: 5%
+}
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* début header */
+#crheader{
+    height: 32em;
+    background-color: #8eb8eb;
+    background-repeat: no-repeat;
+    background-image: url(../voyages/photos/blue-blue-sky-blue-sky-over-the-ocean-nature-sky-hd-art-wallpaper-preview.png);
+}
+#crheaderh1{
+    font-family: 'Festive', cursive;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    text-shadow:#5EE8FF 0 -2px 0,
+    #0097BA 2px 2px 0,
+    #00748F 4px 4px 0,
+    #006178 6px 6px 0.5px,
+    #333333 8px 11px 10px;
+    color:#00CFFF;
+
+}
+#crheaderdivcitation{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    text-shadow:#5EE8FF 0 -2px 0,
+    #0097BA 2px 2px 0,
+    #00748F 4px 4px 0,
+    #006178 6px 6px 0.5px,
+    #333333 8px 11px 10px;
+    color:#00CFFF;
+    
+}
+#crheaderauteur{
+    display: flex;
+    justify-content: center;
+}
+#crheaderul{
+    margin-top: 7em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.crheaderli{
+    display: inline;
+    list-style-type: none;
+}
+.crheadera{
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    text-shadow:0 0 3px #0061FE, 0 0 7px #0061FE, 0 0 20px #0061FE;color:#0061FE;
+    background-color:#a1ffcb;
+}
+#crheaderleader {
+    width: 30px;
+    height: 4px;
+    background-color: var(--fecorange);
+    margin: 2px 0;
+    border-radius: 5px;
+}
+.crheaderbar {
+    text-decoration: none;
+    color: inherit;
+}
+#crheaderform{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;  
+}
+.crheaderinput{
+    border-radius: 22em;
+    font-size: 25px;
+    text-shadow:0 0 3px #0061FE, 0 0 7px #0061FE, 0 0 20px #0061FE;color:#0061FE;
+    background-color:#a1ffcb;
+}
+/* fin header  */
+
+
+
+#al_footer{
+    background-color: #8eb8eb;
+    background-image: url(../voyages/photos/sky_footer.png);
+    width: 100%;
+    padding-top: 2.5%;
+padding-bottom: 2.5%;
+}
+#al_contact{
+    /* background-color: #a1001b; */
+color: #172f4e;
+float: left;
+padding-left: 12em;
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+}
+#al_reseaux{
+    /* background-color: #c57600; */
+color: #172f4e;
+overflow: auto;
+padding-left: 5em;
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+}
+/* #al_newsletter{ */
+    /* background-color: pink; */
+    /* color: #172f4e; */
+/* overflow: auto; */
+/* padding-left: 70em;
+font-size: large;
+font-family: Arial, Helvetica, sans-serif; */
+/* } */
+a{
+    text-decoration: none;
+}

@@ -1,5 +1,5 @@
 #crmain2{
-    height:92em;
+    height:100%;
     background-image: url(../voyages/photos/african-sunrise-amboseli-national-park63103.jpg);
     background-color: blue;
     background-repeat: no-repeat;
@@ -37,11 +37,94 @@ td{
     background-color: honeydew;
 }
 #crh2lyon{
+    color: white;
     display: flex;
     justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 #crphotolyon{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+#crplyon{
+    color: white;
+    font-size: 18px;
+    margin-right: 4em;
+}
+#crimglyon{
+    height: 17em;
+    width: 15em;
+}
+#crimglyon:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+#crh2elephant{
+    color: white;
+    display: flex;
+    justify-content: left;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#crphotoelephant{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+#crpelephant{
+    color: white;
+    font-size: 18px;
+    margin-left: 4em;
+}
+
+#crimgelephant {
+    height: 25em;
+    width: 18em;
+} 
+#crh2giraphe{
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#crphotogiraphe{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+#crpgiraphe{
+    color: white;
+    font-size: 18px;
+    margin-right: 4em;
+}
+#crimggiraphe{
+    height: 17em;
+    width: 15em;
+}
+#crh2bateau{
+    color: white;
+    display: flex;
+    justify-content: left;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#crphotobateau{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+#crpbateau{
+    color: white;
+    font-size: 18px;
+    margin-left: 4em;
+}
+
+#crimgbateau {
+    height: 18em;
+    width: 18em;
+} 

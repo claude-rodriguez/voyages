@@ -1,5 +1,5 @@
 #crmain2{
-    height:52em;
+    height:92em;
     background-image: url(../voyages/photos/african-sunrise-amboseli-national-park63103.jpg);
     background-color: blue;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
 }
 #crmapemonde{
     margin-top: 4em;
-    display: flex;
+    display: flex ;
     justify-content: space-around;
     background-repeat: no-repeat;
 }
@@ -27,12 +27,21 @@
 td{
     border: 1px solid black;
     padding:10px;
-    width: 15em;
-    height: 1em;
+    /* width: 444px; */
+    /* height: 22px; */
 }
 .crtr1{
     background-color: blanchedalmond;
 }
 .crtr2{
     background-color: honeydew;
+}
+#crh2lyon{
+    display: flex;
+    justify-content: center;
+}
+#crphotolyon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

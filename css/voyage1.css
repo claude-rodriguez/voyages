@@ -1,21 +1,15 @@
-main{
-    /* background-image: url(../voyages/photos/angleterre_fond.jpg); */
-    /* background-color: rgb(243, 230, 222); */
-    padding-bottom: 5%;
+#main{
     background-image: url(../voyages/photos/fond_main_angleterre.png);
-    width: 100%;
+    width: fit-content;
     background-repeat: no-repeat;
 }
-body{
-    /* display: flex;
-    flex-direction: column; */
-}
-
 
 #bandeau_angleterre{
     background-image: url(../voyages/photos/angleterre_fond.jpg);
     opacity: 80%;
     padding: 2%;
+    width: 96%;
+    background-repeat: no-repeat;
 }
 #h1_angleterre{
     font-family: 'Festive',Arial, Helvetica, sans-serif;
@@ -28,6 +22,7 @@ body{
     padding-top: 3%;
     padding-left: 10%;
     font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .image {
@@ -42,9 +37,7 @@ body{
         transition-duration: 1s;
 }
 
-#presentation_fond{
-    /* background-image: url(../voyages/photos/angleterre_fond.jpg); */
-}
+
 #texte1{
     padding-top: 3%;
     padding-left: 11%;
@@ -71,25 +64,22 @@ body{
     background-image: url(../voyages/photos/fond_blanc_angleterre.png);
     display: flex;
     justify-content: space-evenly;
+    width: fit-content;
 }
 
 .deplacement{
     display: flex;
     justify-content: center;
-    /* height: 106px; */
-    /* width: 106px; */
-   /* padding: 5%; */
 }
 
-
-
-
-
-
-
-
-
-
+#video_angleterre::-webkit-media-controls {
+    display: none;
+}
+#video_angleterre{
+    padding-left: 33%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
 
 *{
     margin: 0;

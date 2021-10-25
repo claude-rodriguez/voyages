@@ -13,6 +13,7 @@
     font-size: 150%;
     padding-top: 15%;
     padding-left: 5%;
+    padding-bottom: 5%;
     color: #172f4e;
 }
 
@@ -33,12 +34,10 @@
     padding-top: 5%;
 }
 
-.container {
-    display: inline-block;
-    position: relative;
-    /* background-color: #a1001b; */
+.lr_container {
+    padding-top: 2em;
 }
-.container .text {
+.lr_text {
     background: #68acffcc;
     z-index: 1;
     position: absolute;
@@ -48,9 +47,31 @@
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 45%;
+    top: 35%;
     color: #3063a7;
     /* width: 90%; */
+}
+
+#lr_en{
+    display: inline-block;
+    position: relative;
+    background-image: url(../voyages/photos/angleterre.png);
+    height: 15em;
+    width: 100%;
+}
+#lr_kn{
+    display: inline-block;
+    position: relative;
+    background-image: url(../voyages/photos/kenya.png);
+    height: 15em;
+    width: 100%;
+}
+#lr_jp{
+    display: inline-block;
+    position: relative;
+    background-image: url(../voyages/photos/japon.png);
+    height: 15em;
+    width: 100%;
 }
 
 #lr_form {
@@ -59,8 +80,7 @@
     margin: 7em auto;
     margin-bottom: -25em;
     width: 500px;
-  
-    padding: 3em;
+    padding: 5em;
     border: 7px solid #8eb8eb;
     border-radius: 1em;
   }
@@ -102,9 +122,14 @@
   
   #button {
     margin-left: .5em;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 20%;
   }
 
-  
+#lr_destination{
+    font-size: 2em;
+}
   #menu-demo2, #menu-demo2 ul{
     padding:0;
     margin:0;
@@ -351,5 +376,5 @@ font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 .cr_titre_footer{
-    font-size: 3em;
+    font-size: 2em;
 }

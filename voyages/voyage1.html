@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../css/voyage1.css">
+        <!-- <link rel="stylesheet" href="../css/voyage.css"> -->
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,14 +25,19 @@
             </div>
             <nav id="crheadernav">
                 <ul id="crheaderul">
+                        <ul id="menu-demo">
+                            <li class="crheaderli"><a href="#">Destination</a>
+                                <ul>
+                                    <li class="crheaderli"><a href="voyages/voyage1.html">Angleterre</a></li>
+                                    <li class="crheaderli"><a href="voyages/voyage2.html">Kenya</a></li>
+                                    <li class="crheaderli"><a href="voyages/voyage3.html">Japon</a></li>
+                                </ul>
+                        </ul>
                     <li class="crheaderli">
-                        <a class="crheadera" href="">Destination</a>
+                        <a class="crheadera" href="#lr_txtform">Réservations</a>
                     </li>
                     <li class="crheaderli">
-                        <a class="crheadera" href="">Réservations</a>
-                    </li>
-                    <li class="crheaderli">
-                        <a class="crheadera" href="">Qui sommes-nous</a>
+                        <a class="crheadera" href="#al_footer">Contact</a>
                     </li>
                 </ul>               
             </nav>
@@ -71,35 +77,35 @@
                         <h2>Les  lieux notables</h2>
                         <p>Historiques ou récents, classiques ou plus surprenants, voici les sites les plus visités en Angleterre, en Écosse et au Pays de Galles. British museum, lieux de cultes, châteaux et galeries contemporaines, il y en a pour tous les goûts ! </p></div>
                 </div>
-                <video id="video_angleterre" width="560" height="315" controls="false" preload="true" autoplay loop muted>
+                <video id="video_angleterre" width="560" height="315" preload="true" autoplay loop muted>
                     <source src="../voyages/vidéos/angleterre.mp4" type="video/mp4" />
                 </video>
             </div>
         </main>
 
         <footer id="al_footer">
-            <div id="al_contact">
-                <h1>Contact:</h1>
-                <p>Email: le_monde_est_a_nous@gmail.com
-                    <br>Telephone: 555-0164
-                </p>
-            </div>
-            
-            <div id="al_reseaux">
-                <h1>Reseaux-Sociaux:</h1>
-                <p><a href="https://twitter.com/?lang=fr">Twitter</a>
-                <br><a href="https://fr-fr.facebook.com/">facebook</a>
-                <br><a href="https://www.instagram.com/?hl=fr">instagram</a></p>
-            </div>
-            <!-- <div id="al_newsletter">
-                <h1>Newsletter:</h1> -->
-                <!-- <form>
-                <div>
-                <label for="expemple@mail.com"></label>
+            <div id="crdivfooter">
+                <div id="al_contact">
+                    <h2 class="cr_titre_footer">Contact:</h2>
+                    <div id="crcontact">
+                        <a class="crcontact" href="">Qui Sommes Nous ?</a>
+                        <a class="crcontact" href=""> FAQ</a>
+                        <a class="crcontact" href=""> Conditions générales</a>
+                    </div>
                 </div>
-            </form> -->
-                <!-- <p>Vous recevrez l'actualité importante et quelque promo</p>
-            </div> -->
+                <div>
+                    <img id="crmapemonde" src="../voyages/photos/mapemondefooter.gif" alt="">
+                </div>               
+                <div id="al_reseaux">
+                    <h2 class="cr_titre_footer">Réseaux-Social:</h2>
+                        <li id="crsocialfooter">
+                            <a class="crimgsocial" href="https://twitter.com/?lang=fr">Twitter</a>
+                            <a class="crimgsocial" href="https://fr-fr.facebook.com/">Facebook</a>
+                            <a class="crimgsocial" href="https://www.instagram.com/?hl=fr">Instagram</a>
+                        </li>
+                </div>
+                
+            </div>
     </footer>
         
     </body>

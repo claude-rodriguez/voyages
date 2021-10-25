@@ -9,12 +9,12 @@
         background-attachment: scroll;
         opacity: 80%;
   }
-body{
-
- }
+  main{
+      width: 100%;
+  }
  .rectangle{
 	width: 50%;
-	height:1000px;
+	height:1750px;
 	background:rgb(255, 255, 255);
     opacity: 50%;
     position: absolute;
@@ -27,17 +27,53 @@ h1{
     display: flex;
     justify-content: center;
     padding-top: 2%;
+    font-family:kashima_brush;
     
 }
+.al_h2{
+    font-size: 190%;
+}
+#al_texte1{
+    position: absolute;left: 40%; top: 25%;
+    flex-direction: column;
+}
+.al_para{
+    font-size: 131%;
+}
+#al_texte2{
+    text-align: end;
+    position: absolute;right:38%; top: 60%;
+}
+
+#al_h2_2{
+    position: absolute;left:40%; top: 100%;
+    font-size: 190%;
+}
+#al_para2_2{
+    position: absolute;left:29%; top: 175%;
+    font-size: 131%;
+    text-align: center;
+}
+
 #filleattache{
-    display: flex;
-    padding-left: 16.3%;
+    /* display: flex; */
+    /* padding-left: 16.3%; */
     /* padding-top: 20%; */
+    position: absolute; left: 16.6%; top: 122%;
 }
 #fillerouge{
-    display: flex;
-    padding-left: 74.25%;
+ position: absolute; left: 74%; top: 122%;
 }
 #imagegastro{
-    display: flex;
+    position: absolute; bottom: 53%; right: 61%;
+    box-shadow: 10px 10px 5px #525151;
+}
+#imageculture{
+    position: absolute; bottom: 9%; right: 15%;
+    box-shadow:-10px 7px 7px #525151;
+}
+#videomanga{
+    position: absolute; bottom: -66%; left: 25%;
+    z-index: -1;
+    /* box-shadow:-10px 7px 7px #525151; */
 }

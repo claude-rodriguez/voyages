@@ -1,3 +1,126 @@
+#menu-demo, #menu-demo ul{
+    font-size: 30px;
+    list-style:none;
+    text-align:center;
+    }
+    #menu-demo li{
+    display:inline-block;
+    position:relative;
+    border-radius:10em;
+    }
+    #menu-demo ul li{
+    display:inherit;
+    }
+    #menu-demo ul{
+    position:absolute;
+    z-index: 1000;
+    max-height:0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .8s all .3s;
+    transition: .8s all .3s;
+    }
+    #menu-demo li:hover ul{
+    max-height:15em;
+    }
+
+    #menu-demo a{
+    text-decoration:none;
+    display:block;
+    padding:8px 52px;
+    color:#000000;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #a2eeff;
+    border-radius: 10em;
+    }
+
+    
+#crheader{
+    height: 32em;
+    background-color: #8eb8eb;
+    background-repeat: no-repeat;
+    background-image: url(../voyages/photos/blue-blue-sky-blue-sky-over-the-ocean-nature-sky-hd-art-wallpaper-preview.png);
+}
+#crheaderh1{
+    font-family: 'Festive', cursive;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    text-shadow:#5EE8FF 0 -2px 0,
+    #0097BA 2px 2px 0,
+    #00748F 4px 4px 0,
+    #006178 6px 6px 0.5px,
+    #333333 8px 11px 10px;
+    color:#00CFFF;
+
+}
+#crheaderdivcitation{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    text-shadow:#5EE8FF 0 -2px 0,
+    #0097BA 2px 2px 0,
+    #00748F 4px 4px 0,
+    #006178 6px 6px 0.5px,
+    #333333 8px 11px 10px;
+    color:#00CFFF;
+    
+}
+#crheaderauteur{
+    display: flex;
+    justify-content: center;
+}
+#crheaderul{
+    margin-top: 7em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.crheaderli{
+    display: inline;
+    list-style-type: none;
+}
+.crheadera{
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    /* text-shadow:0 0 3px #0061FE, 0 0 7px #0061FE, 0 0 20px #0061FE;color:#0061FE; */
+    background-color:#a1e4ff;
+    border-radius: 10em;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#crheaderleader {
+    width: 30px;
+    height: 4px;
+    background-color: var(--fecorange);
+    margin: 2px 0;
+    border-radius: 5px;
+}
+.crheaderbar {
+    text-decoration: none;
+    color: inherit;
+}
+#crheaderform{
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;  
+}
+.crheaderinput{
+    border-radius: 10em;
+    font-size: 25px;
+    /* text-shadow:0 0 3px #0061FE, 0 0 7px #0061FE, 0 0 20px #0061FE;color:#0061FE; */
+    background-color: #a1e4ff;
+
+}
+/* fin header  */
 #crmain2{
     height:100%;
     background-image: url(../voyages/photos/african-sunrise-amboseli-national-park63103.jpg);
@@ -45,7 +168,7 @@
     100% { left: -400%; }
   }
   
-#crmapemonde{
+#crmapemonde1{
     margin-top: 4em;
     display: flex ;
     justify-content: space-around;

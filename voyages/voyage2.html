@@ -15,39 +15,44 @@
                 cr=claude rodriguez
                 lr=laura rodriguez
                 al=alex lovati -->
-        <header id="crheader">
-            <div id="crheadertitre">
-                <strong><h1 id="crheaderh1">Le Monde est à Nous</h1></strong>
-            </div>
-            <div id="crheaderdivcitation">
-                <blockquote id="crheadercitationblock">
-                    <p id="crheadercitationp">« Voyager rend modeste. On voit mieux la place minuscule que l'on occupe dans le monde. »</p> <br>
-                    <small id="crheaderauteur">Gustave Flaubert</small>
-                </blockquote>
-            </div>
-            <nav id="crheadernav">
-                <ul id="crheaderul">
-                    <li class="crheaderli">
-                        <a class="crheadera" href="">Destination</a>
-                    </li>
-                    <li class="crheaderli">
-                        <a class="crheadera" href="">Réservations</a>
-                    </li>
-                    <li class="crheaderli">
-                        <a class="crheadera" href="">Qui sommes-nous</a>
-                    </li>
-                </ul>               
-            </nav>
-            <div id="crheaderleader">
-                <a class="crheaderbar"></a>
-                <a class="crheaderbar"></a>
-                <a class="crheaderbar"></a>
-            </div>
-            <form id="crheaderform" action="">
-                    <input class="crheaderinput" type="search" placeholder="Que recherchez-vous?">
-                    <input class="crheaderinput" type="submit" value="Valider">
-            </form>
-        </header>
+                <header id="crheader">
+                    <div id="crheadertitre">
+                        <strong><h1 id="crheaderh1">Le Monde est à Nous</h1></strong>
+                    </div>
+                    <div id="crheaderdivcitation">
+                        <blockquote id="crheadercitationblock">
+                            <p id="crheadercitationp">« Voyager rend modeste. On voit mieux la place minuscule que l'on occupe dans le monde. »</p> <br>
+                            <small id="crheaderauteur">Gustave Flaubert</small>
+                        </blockquote>
+                    </div>
+                    <nav id="crheadernav">
+                        <ul id="crheaderul">
+                                <ul id="menu-demo">
+                                    <li class="crheaderli"><a href="#">Destination</a>
+                                        <ul>
+                                            <li class="crheaderli"><a href="voyages/voyage1.html">Angleterre</a></li>
+                                            <li class="crheaderli"><a href="voyages/voyage2.html">Kenya</a></li>
+                                            <li class="crheaderli"><a href="voyages/voyage3.html">Japon</a></li>
+                                        </ul>
+                                </ul>
+                            <li class="crheaderli">
+                                <a class="crheadera" href="#lr_txtform">Réservations</a>
+                            </li>
+                            <li class="crheaderli">
+                                <a class="crheadera" href="#al_footer">Contact</a>
+                            </li>
+                        </ul>               
+                    </nav>
+                    <div id="crheaderleader">
+                        <a class="crheaderbar"></a>
+                        <a class="crheaderbar"></a>
+                        <a class="crheaderbar"></a>
+                    </div>
+                    <form id="crheaderform" action="">
+                            <input class="crheaderinput" type="search" placeholder="Que recherchez-vous?">
+                            <input class="crheaderinput" type="submit" value="Valider">
+                    </form>
+                </header>
 
         <main id="crmain2">
             <div>
@@ -64,7 +69,7 @@
                     </figure>
                 </div>
             </div>
-            <div id="crmapemonde">
+            <div id="crmapemonde1">
                 <div>
                     <img src="../voyages/photos/mapemondekenya-removebg-preview.png" alt="">
                 </div>
@@ -210,21 +215,30 @@
 
         </main>
 
-        <footer>
-            <div id="al_contact">
-                <h1>Contact:</h1>
-                <p>Email: le_monde_est_a_nous@gmail.com
-                    <br>Telephone: 555-0164
-                </p>
+        <footer id="al_footer">
+            <div id="crdivfooter">
+                <div id="al_contact">
+                    <h2 class="cr_titre_footer">Contact:</h2>
+                    <div id="crcontact">
+                        <a class="crcontact" href="">Qui Sommes Nous ?</a>
+                        <a class="crcontact" href=""> FAQ</a>
+                        <a class="crcontact" href=""> Conditions générales</a>
+                    </div>
+                </div>
+                <div>
+                    <img id="crmapemonde" src="../voyages/photos/mapemondefooter.gif" alt="">
+                </div>               
+                <div id="al_reseaux">
+                    <h2 class="cr_titre_footer">Réseaux-Social:</h2>
+                        <li id="crsocialfooter">
+                            <a class="crimgsocial" href="https://twitter.com/?lang=fr">Twitter</a>
+                            <a class="crimgsocial" href="https://fr-fr.facebook.com/">Facebook</a>
+                            <a class="crimgsocial" href="https://www.instagram.com/?hl=fr">Instagram</a>
+                        </li>
+                </div>
+                
             </div>
-            
-            <div id="al_reseaux">
-                <h1>Reseaux-Sociaux:</h1>
-                <p><a href="https://twitter.com/?lang=fr">Twitter</a>
-                <br><a href="https://fr-fr.facebook.com/">facebook</a>
-                <br><a href="https://www.instagram.com/?hl=fr">instagram</a></p>
-            </div>
-        </footer>
+    </footer>
         
     </body>
 </html>

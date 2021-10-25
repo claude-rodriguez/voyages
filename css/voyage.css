@@ -258,39 +258,52 @@
 }
 /* fin header  */
 
-
-
+/* début footer */
+#crmapemonde{
+    height: 12em;
+}
+#crdivfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 #al_footer{
     background-color: #8eb8eb;
     background-image: url(../voyages/photos/sky_footer.png);
     width: 100%;
     padding-top: 2.5%;
-padding-bottom: 2.5%;
+    padding-bottom: 2.5%;
 }
+#crsocialfooter{
+    display: flex;
+    flex-direction: column;    
+}
+.crimgsocial{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
 #al_contact{
-    /* background-color: #a1001b; */
-color: #172f4e;
-float: left;
-padding-left: 12em;
-font-size: large;
-font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #172f4e;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #al_reseaux{
-    /* background-color: #c57600; */
 color: #172f4e;
-overflow: auto;
-padding-left: 5em;
 font-size: large;
 font-family: Arial, Helvetica, sans-serif;
 }
-/* #al_newsletter{ */
-    /* background-color: pink; */
-    /* color: #172f4e; */
-/* overflow: auto; */
-/* padding-left: 70em;
-font-size: large;
-font-family: Arial, Helvetica, sans-serif; */
-/* } */
-a{
+.crcontact{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
+    color: black;
+}
+.cr_titre_footer{
+    font-size: 3em;
 }

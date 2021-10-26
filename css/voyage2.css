@@ -56,6 +56,9 @@
     color:#00CFFF;
 
 }
+#crh1{
+    text-decoration: none;
+}
 #crheaderdivcitation{
     font-size: 2em;
     display: flex;
